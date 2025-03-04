@@ -1,0 +1,14 @@
+C:\Users\adith\source\repos\MyFirstApplication\MyFirstApplication\bin\Debug\MyFirstApplication.exe.config
+C:\Users\adith\source\repos\MyFirstApplication\MyFirstApplication\bin\Debug\MyFirstApplication.exe
+C:\Users\adith\source\repos\MyFirstApplication\MyFirstApplication\bin\Debug\MyFirstApplication.pdb
+C:\Users\adith\source\repos\MyFirstApplication\MyFirstApplication\obj\Debug\MyFirstApplication.csproj.AssemblyReference.cache
+C:\Users\adith\source\repos\MyFirstApplication\MyFirstApplication\obj\Debug\MyFirstApplication.csproj.CoreCompileInputs.cache
+C:\Users\adith\source\repos\MyFirstApplication\MyFirstApplication\obj\Debug\MyFirstApplication.exe
+C:\Users\adith\source\repos\MyFirstApplication\MyFirstApplication\obj\Debug\MyFirstApplication.pdb
+C:\Users\adith\source\repos\Training-Exersise\MyFirstApplication\MyFirstApplication\bin\Debug\MyFirstApplication.exe.config
+C:\Users\adith\source\repos\Training-Exersise\MyFirstApplication\MyFirstApplication\bin\Debug\MyFirstApplication.exe
+C:\Users\adith\source\repos\Training-Exersise\MyFirstApplication\MyFirstApplication\bin\Debug\MyFirstApplication.pdb
+C:\Users\adith\source\repos\Training-Exersise\MyFirstApplication\MyFirstApplication\obj\Debug\MyFirstApplication.csproj.AssemblyReference.cache
+C:\Users\adith\source\repos\Training-Exersise\MyFirstApplication\MyFirstApplication\obj\Debug\MyFirstApplication.csproj.CoreCompileInputs.cache
+C:\Users\adith\source\repos\Training-Exersise\MyFirstApplication\MyFirstApplication\obj\Debug\MyFirstApplication.exe
+C:\Users\adith\source\repos\Training-Exersise\MyFirstApplication\MyFirstApplication\obj\Debug\MyFirstApplication.pdb

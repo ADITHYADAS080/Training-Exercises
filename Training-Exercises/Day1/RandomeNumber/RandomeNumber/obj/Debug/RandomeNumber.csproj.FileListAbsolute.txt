@@ -1,0 +1,7 @@
+C:\Users\adith\source\repos\Training-Exersise\RandomeNumber\RandomeNumber\bin\Debug\RandomeNumber.exe.config
+C:\Users\adith\source\repos\Training-Exersise\RandomeNumber\RandomeNumber\bin\Debug\RandomeNumber.exe
+C:\Users\adith\source\repos\Training-Exersise\RandomeNumber\RandomeNumber\bin\Debug\RandomeNumber.pdb
+C:\Users\adith\source\repos\Training-Exersise\RandomeNumber\RandomeNumber\obj\Debug\RandomeNumber.csproj.AssemblyReference.cache
+C:\Users\adith\source\repos\Training-Exersise\RandomeNumber\RandomeNumber\obj\Debug\RandomeNumber.csproj.CoreCompileInputs.cache
+C:\Users\adith\source\repos\Training-Exersise\RandomeNumber\RandomeNumber\obj\Debug\RandomeNumber.exe
+C:\Users\adith\source\repos\Training-Exersise\RandomeNumber\RandomeNumber\obj\Debug\RandomeNumber.pdb
