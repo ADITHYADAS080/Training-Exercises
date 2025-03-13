@@ -1,0 +1,7 @@
+C:\Users\adith\source\repos\Training-Exersise\Exception-Handling-Practice\Exception-Handling-Practice\obj\Debug\Exception-Handling-Practice.csproj.AssemblyReference.cache
+C:\Users\adith\source\repos\Training-Exersise\Exception-Handling-Practice\Exception-Handling-Practice\obj\Debug\Exception-Handling-Practice.csproj.CoreCompileInputs.cache
+C:\Users\adith\source\repos\Training-Exersise\Exception-Handling-Practice\Exception-Handling-Practice\bin\Debug\Exception-Handling-Practice.exe.config
+C:\Users\adith\source\repos\Training-Exersise\Exception-Handling-Practice\Exception-Handling-Practice\bin\Debug\Exception-Handling-Practice.exe
+C:\Users\adith\source\repos\Training-Exersise\Exception-Handling-Practice\Exception-Handling-Practice\bin\Debug\Exception-Handling-Practice.pdb
+C:\Users\adith\source\repos\Training-Exersise\Exception-Handling-Practice\Exception-Handling-Practice\obj\Debug\Exception-Handling-Practice.exe
+C:\Users\adith\source\repos\Training-Exersise\Exception-Handling-Practice\Exception-Handling-Practice\obj\Debug\Exception-Handling-Practice.pdb

@@ -1,0 +1,7 @@
+C:\Users\adith\source\repos\Training-Exersise\E-Commerce_Project\E-Commerce_Project\bin\Debug\E-Commerce_Project.exe.config
+C:\Users\adith\source\repos\Training-Exersise\E-Commerce_Project\E-Commerce_Project\bin\Debug\E-Commerce_Project.exe
+C:\Users\adith\source\repos\Training-Exersise\E-Commerce_Project\E-Commerce_Project\bin\Debug\E-Commerce_Project.pdb
+C:\Users\adith\source\repos\Training-Exersise\E-Commerce_Project\E-Commerce_Project\obj\Debug\E-Commerce_Project.csproj.AssemblyReference.cache
+C:\Users\adith\source\repos\Training-Exersise\E-Commerce_Project\E-Commerce_Project\obj\Debug\E-Commerce_Project.csproj.CoreCompileInputs.cache
+C:\Users\adith\source\repos\Training-Exersise\E-Commerce_Project\E-Commerce_Project\obj\Debug\E-Commerce_Project.exe
+C:\Users\adith\source\repos\Training-Exersise\E-Commerce_Project\E-Commerce_Project\obj\Debug\E-Commerce_Project.pdb

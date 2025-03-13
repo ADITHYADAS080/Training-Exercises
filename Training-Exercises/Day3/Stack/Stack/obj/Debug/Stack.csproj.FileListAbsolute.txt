@@ -1,0 +1,7 @@
+C:\Users\adith\source\repos\Training-Exersise\Stack\Stack\bin\Debug\Stack.exe.config
+C:\Users\adith\source\repos\Training-Exersise\Stack\Stack\bin\Debug\Stack.exe
+C:\Users\adith\source\repos\Training-Exersise\Stack\Stack\bin\Debug\Stack.pdb
+C:\Users\adith\source\repos\Training-Exersise\Stack\Stack\obj\Debug\Stack.csproj.AssemblyReference.cache
+C:\Users\adith\source\repos\Training-Exersise\Stack\Stack\obj\Debug\Stack.csproj.CoreCompileInputs.cache
+C:\Users\adith\source\repos\Training-Exersise\Stack\Stack\obj\Debug\Stack.exe
+C:\Users\adith\source\repos\Training-Exersise\Stack\Stack\obj\Debug\Stack.pdb

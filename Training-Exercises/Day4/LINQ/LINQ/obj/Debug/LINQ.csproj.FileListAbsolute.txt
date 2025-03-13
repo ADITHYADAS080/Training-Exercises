@@ -1,0 +1,7 @@
+C:\Users\adith\source\repos\Training-Exersise\LINQ\LINQ\bin\Debug\LINQ.exe.config
+C:\Users\adith\source\repos\Training-Exersise\LINQ\LINQ\bin\Debug\LINQ.exe
+C:\Users\adith\source\repos\Training-Exersise\LINQ\LINQ\bin\Debug\LINQ.pdb
+C:\Users\adith\source\repos\Training-Exersise\LINQ\LINQ\obj\Debug\LINQ.csproj.AssemblyReference.cache
+C:\Users\adith\source\repos\Training-Exersise\LINQ\LINQ\obj\Debug\LINQ.csproj.CoreCompileInputs.cache
+C:\Users\adith\source\repos\Training-Exersise\LINQ\LINQ\obj\Debug\LINQ.exe
+C:\Users\adith\source\repos\Training-Exersise\LINQ\LINQ\obj\Debug\LINQ.pdb
