@@ -1,0 +1,193 @@
+﻿@model UserRegistration.Models.User
+
+@{
+    ViewBag.Title = "Create";
+}
+
+@*<h2>Create</h2>*@
+
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+<div class="form-horizontal">
+    <h3>User Registration</h3>
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <div class="form-group">
+        @Html.LabelFor(model => model.UserFirstName, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.UserFirstName, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.UserFirstName, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.UserLastName, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.UserLastName, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.UserLastName, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.DateOfBirth, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(Model => Model.DateOfBirth, new { @class = "form-control", type = "date", Value = Model.DateOfBirth.ToString("yyyy-MM-dd"), min = "2000-01-01", max = "2025-12-31" })
+            @Html.ValidationMessageFor(Model => Model.DateOfBirth, "", new { @class = "text-danger" })
+            @*@Html.EditorFor(model => model.DateOfBirth, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.DateOfBirth, "", new { @class = "text-danger" })*@
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Gender, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            <label class="radio-inline">
+                @Html.RadioButtonFor(Model => Model.Gender, "Male") Male
+            </label>
+            <label class="radio-inline">
+                @Html.RadioButtonFor(Model => Model.Gender, "Female") Female
+            </label>
+            <label class="radio-inline">
+                @Html.RadioButtonFor(Model => Model.Gender, "Other") Other
+            </label>
+            @*@Html.EditorFor(model => model.Gender, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Gender, "", new { @class = "text-danger" })*@
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.PhoneNumber, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.PhoneNumber, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.PhoneNumber, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.EmailAddress, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.EmailAddress, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.EmailAddress, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Address, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Address, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Address, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    @*<div class="form-group">
+            @Html.LabelFor(model => model.State, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <select id="stateDropdown" class="form-control">
+                    <option value="">Select State</option>
+                </select>
+                @Html.EditorFor(model => model.State, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.State, "", new { @class = "text-danger" })
+            </div>
+        </div>*@
+
+    <!--<div class="form-group">-->
+    @*@Html.LabelFor(model => model.City, htmlAttributes: new { @class = "control-label col-md-2" })*@
+    <!--<div class="col-md-10">
+        <select id="cityDropdown" class="form-control">
+            <option value="">Select City</option>
+        </select>-->
+    @*@Html.EditorFor(model => model.City, new { htmlAttributes = new { @class = "form-control" } })*@
+    @*@Html.ValidationMessageFor(model => model.City, "", new { @class = "text-danger" })*@
+    <!--</div>
+    </div>-->
+
+    <div class="form-group">
+        <label class="control-label col-md-2">State</label>
+        <div class="col-md-10">
+            <select id="stateDropdown" name="state" class="form-control">
+                <option value="">Select State</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-md-2">City</label>
+        <div class="col-md-10">
+            <select id="cityDropdown" name="city" class="form-control">
+                <option value="">Select City</option>
+            </select>
+        </div>
+    </div>
+
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Username, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Username, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Username, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Password, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.PasswordFor(model => model.Password, new {  @class = "form-control" } )
+            @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.ConfirmPassword, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.PasswordFor(model => model.ConfirmPassword, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.ConfirmPassword, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Register" class="btn btn-primary" />
+        </div>
+    </div>
+</div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+<script>
+    var cityData = {};
+    $(document).ready(function () {
+        $.getJSON("/Scripts/Indian_Cities_In_States_JSON.json", function (data) {
+            cityData = data;
+            populateStates();
+        });
+
+        function populateStates() {
+            var stateDropdown = $("#stateDropdown");
+            stateDropdown.empty().append('<option value = "" > Select State </Option>');
+
+            $.each(cityData, function (state, cities) {
+                stateDropdown.append('<option value="' + state + '">' + state + '</option>');
+            });
+        }
+        $("#stateDropdown").change(function () {
+            var selectedState = $(this).val();
+            var cityDropdown = $("#cityDropdown");
+            cityDropdown.empty().append('<option value="">Select City</option>');
+
+            if (selectedState && cityData[selectedState]) {
+                $.each(cityData[selectedState], function (index, city) {
+                    cityDropdown.append('<option value="' + city + '">' + city + '</option>');
+                });
+            }
+        });
+    })
+    </script>
+}
