@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Selector Practice</title>
+</head>
+<link rel="stylesheet" href="Style.css">
+<body>
+    <header>
+        <h1>Css Selector Practice</h1>
+        <nav>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+        <section class="universal">
+            <h2>Universal Selector Example</h2>
+            <p>this paragraph is styled using the universal selector(*) which applies to all elements</p>
+        </section>
+        <section>
+            <h2>Type Selector Example</h2>
+            <h3>Headings and Paragraphs</h3>
+            <p>This is an example of a paragraph styled by the type selector</p>
+        </section>
+        <section class="clasSelector">
+            <h2>Class Selector Example</h2>
+            <p>This section is styled using class selector and named highlight</p>
+        </section>
+        <section id="unique">
+            <h1>Id Selector Example</h1>
+            <p>This section is styled using ID selector named unique</p>
+        </section>
+        <section>
+            <h2>Attribute selector example</h2>
+            <input type="text" placeholder="Your Name">
+        </section>
+        <section class="decendant">
+            <h2>Decendant selector Example</h2>
+            <p>This paragraph is inside a div and styled by a decendant selector (div p)</p>
+        </section>
+        <section>
+            <h2>Child selection Example</h2>
+            <ul>
+                <li>First child item styled using child selector ul </li>
+                <li>Another child item in the list</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Adjacent Sibling Selector example</h2>
+            <h1>This is a heading</h1>
+            <p>This paragraph is styled as an adjacent sibling to the above heading(h2+p)</p>
+        </section>
+        <section>
+            <h2>general sibling selector example</h2>
+            <h1>Another heading</h1>
+            <p>this paragraph is styled as a general sibling to the above heeading (h2~p).</p>
+            <p>Another sibling paragraph styled the same way.</p>
+        </section>
+    </main>
+</body>
+</html>

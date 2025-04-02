@@ -1,0 +1,58 @@
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  nav {
+    width: 100%;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    background-color: black;
+    height: 35px;
+    color: white;
+    list-style-type: none;
+    align-items: center;
+  }
+  nav ul a{
+    text-decoration: none;
+    color: white;
+  }
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  section {
+    background-color: rgb(168, 168, 168);
+    padding: 20px;
+  }
+  .clasSelector {
+    background-color: yellow;
+  }
+  #unique {
+    color: red;
+  }
+  input[type="text"] {
+    height: 35px;
+    width: 100%;
+    border: none;
+  }
+  .decendant p {
+    text-decoration: underline;
+  }
+  section > ul > li {
+    color: blue;
+  }
+  h1 + p {
+    color: green;
+  }
+  p ~ p {
+    color: aquamarine;
+  }
+  

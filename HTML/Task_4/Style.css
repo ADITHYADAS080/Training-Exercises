@@ -1,0 +1,79 @@
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+  }
+header h1 {
+    background-color: rgb(223, 220, 220);
+    padding: 10px;
+    margin-bottom: 0;
+}
+
+  nav {
+    width: 100%;
+  }
+  nav ul {
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+    background-color: black;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+  }
+  nav ul a {
+    color: white;
+    text-decoration: none;
+  }
+  .introduction{
+    background-color: rgb(223, 220, 220);
+    padding: 15px;
+
+  }
+  .introduction h1{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .box-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 10px;
+  }
+  .box{
+    margin: 10px;
+    background-color: rgb(248, 246, 246);
+    padding: 10px;
+    border: 1px solid black;
+    box-shadow: 1px 3px 5px ;
+  }
+  .pseudo{
+    background-color: rgb(236, 236, 236);
+  }
+ .pseudo .item:hover{
+  cursor: pointer;
+  color: red;
+ }
+
+ .pseudo-item-2::before{
+  content: "Start";
+  color: blue;
+ }
+ .pseudo-item-2::after{
+  content: "End";
+  color: red;
+ }
+  footer{
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(238, 236, 236);
+    bottom: 0;
+  }
+
