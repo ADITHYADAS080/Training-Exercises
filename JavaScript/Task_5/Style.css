@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.card{
+    border: 1px blue solid;
+    padding: 20px;
+    margin-top: 100px;
+    width: 500px;
+}
+input{
+    width: 80%;
+    height: 40px;
+    padding-left: 15px;
+}
+button{
+    width: 20%;
+    background-color: blue;
+border: none;
+color: white;
+}
+.search{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+gap: 5px;
+}
+.error{
+    width: 100%;
+    text-align: center;
+    color: red;
+    display: none;
+}
+.whether{
+    margin: 15px;
+    width: 100%;
+}
+table{
+    width: 90%;
+}
+.whether-icon{
+    height: 100px;
+}

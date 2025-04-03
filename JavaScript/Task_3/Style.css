@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding: 20px;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+  }
+  h1 {
+    margin-bottom: 20px;
+  }
+  input {
+    height: 40px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  button {
+    height: 40px;
+    padding: 10px;
+    background-color: rgb(89, 196, 231);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  .gradeList {
+    display: flex;
+    width: 100%;
+  }
+  span {
+    color: red;
+    display: none;
+  }

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="Style.css">
+<body>
+
+    <main>
+        <h1>Inventory System</h1>
+        <div class="form">
+            <label for="productname">Name : </label>
+            <input class="productname" type="text" placeholder="Enter product name here">
+            <label for="price">Price</label>
+            <input class="price" type="text" placeholder="Enter product price">
+            <label for="qty">Quantity</label>
+            <input class="qty" type="text" placeholder="Quantity">
+            <button onclick="addProduct()">Add Product</button>
+        </div>
+        <div class="inventry-list">
+            <h2>Inventory List</h2>
+            <table border="1" class="pTable">
+                <tr>
+                    <th>Product Name</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Action</th>
+
+                </tr>
+            </table>
+        </div>
+        <div class="form editform">
+            <input type="hidden" class="index">
+            <label for="productname">Name : </label>
+            <input class="Editproductname" type="text" placeholder="Enter product name here">
+            <label for="price">Price</label>
+            <input class="Editprice" type="text" placeholder="Enter product price">
+            <label for="qty">Quantity</label>
+            <input class="Editqty" type="text" placeholder="Quantity">
+            <button class="editBtn">Edit Product</button>
+        </div>
+    </main>
+
+    
+    <script src="Demo.js"></script>
+</body>
+</html>
